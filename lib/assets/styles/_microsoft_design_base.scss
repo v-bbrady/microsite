@@ -1,0 +1,9 @@
+// Imports
+@import '../../../client/app/lib/styles/app';
+
+.c-group {
+    .c-card.t-content.o-1x-2y {
+        flex: 1;
+        margin-#{$left}: 0;
+    }
+}

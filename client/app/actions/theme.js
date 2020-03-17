@@ -1,0 +1,7 @@
+export const SET_THEME_DEFAULT = 'SET_THEME::DEFAULT';
+export const SET_THEME_BLUE = 'SET_THEME::BLUE';
+export const SET_THEME_PURPLE = 'SET_THEME::PURPLE';
+export const SET_THEME_ORANGE = 'SET_THEME::ORANGE';
+export const SET_THEME_YELLOW = 'SET_THEME::YELLOW';
+export const SET_THEME_GREEN = 'SET_THEME::GREEN';
+export const SET_THEME_TEAL = 'SET_THEME::TEAL';

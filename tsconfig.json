@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "target": "es5",
+        "lib": [ "es2015", "es2017", "dom", "scripthost" ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "sourceMap": true,
+        "rootDir": "./",
+        "baseUrl": ".",
+        "types" : [ "node", "cuid", "react" ],
+        "typeRoots": [ "node_modules/@types" ],
+        "skipLibCheck": true,
+        "paths": {
+        "[FWcomponents]/*": ["@ms-fw/fw-react/components/*"],
+        "[FWmodules]/*": ["@ms-fw/fw-react/modules/*"],
+        "[ExperimentationComponents]/*": ["@ms-fw/fw-experimentation-react/components/*"],
+        "[ExperimentationModules]/*": ["@ms-fw/fw-experimentation-react/modules/*"],
+        "[components]/*": ["./lib/components/*"],
+        "[lib]/*": ["./lib/*"],
+        "[modules]/*": ["./lib/modules/*"],
+        "[utilities]/*": ["@ms-fw/fw-react/utilities/*"],
+        "[styles]/*": ["./lib/assets/styles/*"]
+        }
+    }
+}

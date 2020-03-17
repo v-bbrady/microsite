@@ -1,0 +1,54 @@
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+
+# Node Modules
+node_modules
+
+# Distribution
+www
+
+# Build
+build
+
+# Logs
+npm-debug.log
+
+# Temp files
+.tmp
+
+# IDE files
+.idea
+
+# VSCode settings
+
+# FTP credentials
+.ftppass
+
+# Deployment files
+.deployment
+
+packages/react/*
+!packages/react/package.json
+!packages/react/CHANGELOG.md
+
+!packages/stylesheet/*
+packages/stylesheet/.DS_Store
+packages/stylesheet/node_modules
+packages/stylesheet/styles
+packages/stylesheet/fonts
+packages/stylesheet/.tmp/
+
+# Generated Docs files
+lib/components/**/docs/*
+lib/modules/**/docs/*

@@ -1,0 +1,31 @@
+{
+    "presets": [
+        "es2015",
+        "react"
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-react-jsx",
+        [
+            "module-alias",
+            [
+                {
+                    "src": "./lib/",
+                    "expose": "[lib]"
+                },
+                {
+                    "src": "./lib/components/",
+                    "expose": "[components]"
+                },
+                {
+                    "src": "./lib/modules/",
+                    "expose": "[modules]"
+                },
+                {
+                    "src": "./lib/assets/styles/",
+                    "expose": "[styles]"
+                }
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,91 @@
+[class^='c-heading'] {
+    font-weight: 600;
+}
+
+[class^='c-paragraph'],
+.c-list-1 > li > button {
+    font-weight: 400;
+}
+
+/**
+ * Heading
+ *
+ * Used in:
+ * Page-intro
+ * Section-header
+ * Home hero card heading
+ */
+.c-heading-1,
+.c-heading-2,
+.c-heading-3 {
+    font-size: 28px;
+    line-height: 36px;
+
+    @media only screen and (min-width: $vp3) {
+        font-size: 34px;
+        line-height: 48px;
+    }
+}
+
+/**
+ * Subhead
+ *
+ * Used in:
+ * Section-header subheading (regular)
+ * Card heading (semibold)
+ * Home hero card date (semibold)
+ * Typographic-end heading (semibold)
+ * Mobile header links
+ */
+.c-heading-4,
+.c-heading-5,
+.c-heading-6,
+[class^='c-subheading'],
+.c-header.o-mobile .c-navigation-bar a.c-hyperlink {
+    font-size: 21px;
+    line-height: 32px;
+}
+
+/**
+ * Body (large)
+ *
+ * Used in:
+ * Section header body
+ * Typographic-end body
+ */
+.c-paragraph-1,
+.c-list-1 > li > button {
+    font-size: 16px;
+    line-height: 24px;
+
+    @media only screen and (min-width: $vp3) {
+        font-size: 21px;
+        line-height: 32px;
+    }
+}
+
+/**
+ * Body
+ *
+ * Used in:
+ * Card subheading/description
+ */
+.c-paragraph-2,
+.c-paragraph-3,
+.c-paragraph-4,
+.c-meta-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/**
+ * Caption
+ *
+ * Used in:
+ * Card caption
+ * Card meta text
+ */
+.c-caption-1 {
+    font-size: 11px;
+    line-height: 16px;
+}
